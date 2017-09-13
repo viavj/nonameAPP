@@ -1,0 +1,173 @@
+/* 
+main colo #11a2b2
+*/
+
+
+.navbar{
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 10px 50px 0px;
+}
+
+.navbar-logo{
+    max-width: 70px;
+}
+
+.navbar-profile{
+    max-width: 70px;
+}
+
+.nav-collapse{
+    width: 80%;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 10px 50px 0px;
+    margin: auto;
+    border-bottom-left-radius: 13px;
+    border-bottom-right-radius: 13px;
+}
+
+.nav-card-card-body{
+    border-bottom-left-radius: 13px;
+    border-bottom-right-radius: 13px;
+    border: none;
+    background: #f8f9fa!important;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+}
+
+.nav-search-item-container{
+    position:relative;
+    padding:0;
+    margin:0;
+}
+
+.nav-search-item-container img{
+    position:absolute;
+    bottom: 8px;
+    left: 10px;
+    width: 25px;
+    height: 25px;
+}
+
+.nav-search-item{
+    margin-bottom: 5px;
+    border: 1px solid #bdbdbd;
+    border-radius: 20px;
+    background-color: #f8f9fa;
+    height: 35px;
+    width: 100%;
+    padding-left: 2em;
+    text-indent: 0.5em;
+}
+
+.nav-search-location-container{
+    position:relative;
+    padding:0;
+    margin:0;
+}
+
+.nav-search-location-container img{
+    position:absolute;
+    bottom: 15px;
+    left: 10px;
+    width: 25px;
+    height: 25px;
+}
+
+.nav-search-location{
+    border: 1px solid #bdbdbd;
+    border-radius: 20px;
+    background-color: #f8f9fa;
+    height: 35px;
+    margin-bottom: 10px;
+    width: 100%;
+    padding-left: 2em;
+    text-indent: 0.5em;
+}
+
+.nav-search-item, .nav-search-location:focus{
+    outline: none !important;
+}
+
+.search-button-container{
+    text-align: center;
+    position: relative;
+}
+
+.search-button{
+    border-radius: 30px;
+    height: 49px;
+    margin-top: -25px;
+    outline: none;
+    background: #11a2b2;
+}
+
+.search-button:focus{
+    box-shadow: none !important;
+}
+
+.btn:focus{
+    outline: none !important;
+
+}
+
+
+
+
+
+
+
+
+/* IMAGE CROP */
+
+.frame-square,
+.frame-round {
+  padding: 10px;
+  width: 75px;
+  height: 75px;
+}
+
+.frame-round-lg{
+  padding: 10px;
+  width: 130px;
+  height: 130px;
+}
+
+.frame-round,
+.frame-round-lg {
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.frame-round .crop,
+.frame-round-lg .crop {
+  border-radius: 50%;
+}
+
+.crop {
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.crop img {
+  -webkit-transform: scale3d(0.8, 0.8, 1);
+  transform: scale3d(0.8, 0.8, 1);
+  max-width: 170%;  /* needs to adjust for portrait mode */
+  display: block;
+  min-width: 100%;
+  min-height: 100%;
+  margin: auto;
+  position: absolute;
+  top: -100%;
+  right: -100%;
+  bottom: -100%;
+  left: -100%;
+}
+
+
+
+small {
+  display: block;
+  font-weight: normal;
+  opacity: .8;
+}
+/* END IMAGE CROP */
+

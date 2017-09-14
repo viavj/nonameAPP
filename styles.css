@@ -26,7 +26,7 @@ body{
     max-width: 70px;
 }
 
-.navbar-profile{
+.navbar-wall-item{
     max-width: 70px;
 }
 
@@ -135,11 +135,11 @@ body{
 
 }
 
-.profile-container{
+.wall-item-container{
     margin-top: 20vh;
 }
 
-.profile-container-sm{
+.wall-item-container-sm{
     width: 100%;
     background: white;
     border: 1px solid rgba(128, 128, 128, 0.15);
@@ -149,39 +149,39 @@ body{
     margin: 5px;
 }
 
-.profile-sm{
+.wall-item-sm{
     margin: 5px;
     display: flex;
 }
 
-.profile-name-sm{
+.wall-item-name-sm{
     font-size: 20px;
     font-weight: 600;
 }
 
-.profile-profession-sm{
+.wall-item-profession-sm{
     color: gray;
     font-weight: 200;
 }
 
-.profile-prof-spec-sm{
+.wall-item-prof-spec-sm{
     color: gray;
     font-style: italic;
     font-weight: 200;
 }
 
-.profile-looks-for-sm{
+.wall-item-looks-for-sm{
     display: flex;
     display: flex;
     max-width: 95vw;
     margin-bottom: 5px;
 }
 
-.profile-looks-for-sm .col-3{
+.wall-item-looks-for-sm .col-3{
     padding-right: 0;
 }
 
-.profile-looks-for-sm img{
+.wall-item-looks-for-sm img{
     height: 40px;
     margin-right: 5px;    
 }
@@ -225,17 +225,108 @@ body{
     width: auto;
 }
 
+/* ***************************** */
+/* PROFILE */
+
+.profile-container{
+    flex-direction: column;
+}
+
+.profile-photo-lg{
+    border: 7px solid white;
+}
+
+.profile-fulname{
+    text-align: center;
+}
+
+.profile-fulname h6{
+    font-size: 30px;
+    color: #7d7d7d;
+}
+
+.profile-info-container{
+    background: white;
+    margin: 60px 5px 5px 5px;
+    padding: 5px;
+}
+
+.section-connect{
+    display: flex;
+    justify-content: center;
+    margin-top: -20px;
+}
+
+.profile-connect-btn{
+    background: #11a2b2;
+    color: white;
+    border-radius: 30px;
+}
+
+.profile-social-btn{
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 15px 0px;
+    background: white;
+    border-radius: 30px;
+    width: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 5px;
+}
+
+.profile-about-container{
+    margin: 30px 5px 5px 5px;
+}
+.profile-expirience-sm{
+    display: flex;
+    align-items: center;
+}
+
+.profile-expirience-sm img{
+    margin-right: 3px;
+}
+
+.profile-studies-sm{
+    display: flex;
+    align-items: center;
+}
+
+.profile-studies-sm img{
+    margin-right: 3px;
+}
 
 
+.profile-profession-sm{
+    display: flex;
+    align-items: center;
+}
+
+.profile-profession-sm img{
+    margin-right: 3px;
+}
+
+.profile-details-text{
+    margin-top:30px;
+}
+
+.profile-looksfor-container{
+    background: white;
+    margin: 15px;
+    padding: 5px;
+    border: 1px solid rgba(128, 128, 128, 0.24);
+    display: flex;
+    flex-direction: column;
+    border-radius: 4px;
+    
+}
+
+.profile-looksfor-container img{
+    height: 50px;
+}
 
 
-
-
-
-
-
-
-
+/* END PROFILE */
+/* ******************************* */
 
 
 
@@ -268,8 +359,8 @@ body{
 
 .frame-round-lg{
   padding: 10px;
-  width: 130px;
-  height: 130px;
+  width: 150px;
+  height: 150px;
 }
 
 .frame-round-md{

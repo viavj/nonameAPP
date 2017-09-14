@@ -17,51 +17,53 @@
 </head>
 
 <body>
+    <div class="main-wrapper">
 
-    <nav class="navbar navbar-light bg-light">
-        <a class="navbar-brand" href="#">  
+
+        <nav class="navbar navbar-light">
+            <a class="navbar-brand" href="#">  
                 <img src="logo.png"  class="d-inline-block align-top navbar-logo">
             </a>
-        <a>
-            <div class="frame-round">
-                <div class="crop">
-                    <img src="profile.jpg" class="d-inline-block align-top navbar-profile">
+            <a>
+                <div class="frame-round">
+                    <div class="crop">
+                        <img src="profile.jpg" class="d-inline-block align-top navbar-profile">
+                    </div>
+                </div>
+            </a>
+        </nav>
+
+
+
+        <div class="container-fluid">
+
+
+            <div class="collapse nav-collapse" id="collapseExample">
+                <div class="card card-body nav-card-card-body">
+                    <div class="nav-search-item-container">
+                        <input type="text" class="nav-search-item">
+                        <img src="./feather/search-gray.svg">
+                    </div>
+                    <div class="nav-search-location-container">
+                        <input type="text" class="nav-search-location">
+                        <img src="./feather/map-pin-gray.svg">
+                    </div>
                 </div>
             </div>
-        </a>
-    </nav>
+            <p class="search-button-container">
+                <button class="btn search-button" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false"
+                    aria-controls="collapseExample">
+                <img src="./feather/search-white.svg">
+            </button>
+            </p>
 
 
 
-    <div class="container-fluid">
-        <!-- <div>
-            <input type="text" class="search-item" placeholder="search">
-            <input type="text" class="search-location" placeholder="location">
-        </div> -->
 
 
-        <div class="collapse nav-collapse" id="collapseExample">
-            <div class="card card-body nav-card-card-body">
-                <div class="nav-search-item-container">
-                    <input type="text" class="nav-search-item">
-                    <img src="./feather/search-gray.svg">
-                </div>
-                <div class="nav-search-location-container">
-                    <input type="text" class="nav-search-location">
-                    <img src="./feather/map-pin-gray.svg">                    
-                </div>
-            </div>
         </div>
-        <p class="search-button-container">
-            <button class="btn search-button" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false"
-                aria-controls="collapseExample">
-                      <img src="./feather/search-white.svg">
-                    </button>
-        </p>
-
-
-
     </div>
+
 
 
     <!-- Optional JavaScript -->

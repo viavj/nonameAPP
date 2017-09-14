@@ -19,51 +19,160 @@
 <body>
     <div class="main-wrapper">
 
-
-        <nav class="navbar navbar-light">
-            <a class="navbar-brand" href="#">  
-                <img src="logo.png"  class="d-inline-block align-top navbar-logo">
-            </a>
-            <a>
-                <div class="frame-round">
-                    <div class="crop">
-                        <img src="profile.jpg" class="d-inline-block align-top navbar-profile">
-                    </div>
-                </div>
-            </a>
-        </nav>
-
-
-
         <div class="container-fluid">
+            <div class="row">
 
 
-            <div class="collapse nav-collapse" id="collapseExample">
-                <div class="card card-body nav-card-card-body">
-                    <div class="nav-search-item-container">
-                        <input type="text" class="nav-search-item">
-                        <img src="./feather/search-gray.svg">
+                <nav class="navbar navbar-light fixed-top">
+                    <a class="navbar-brand" href="#">  
+                                <img src="logo.png"  class="d-inline-block align-top navbar-logo">
+                            </a>
+                    <a>
+                        <div class="frame-round">
+                            <div class="crop">
+                                <img src="user.jpg" class="d-inline-block align-top navbar-profile">
+                            </div>
+                        </div>
+                    </a>
+                </nav>
+
+
+                <div class="container-fluid search-container">
+                    <!-- **************** -->
+                    <!-- Search section -->
+
+                    <div class="collapse nav-collapse" id="collapseExample">
+                        <div class="card card-body nav-card-card-body">
+                            <div class="nav-search-item-container">
+                                <input type="text" class="nav-search-item">
+                                <img src="./feather/search-gray.svg">
+                            </div>
+                            <div class="nav-search-location-container">
+                                <input type="text" class="nav-search-location">
+                                <img src="./feather/map-pin-gray.svg">
+                            </div>
+                        </div>
                     </div>
-                    <div class="nav-search-location-container">
-                        <input type="text" class="nav-search-location">
-                        <img src="./feather/map-pin-gray.svg">
-                    </div>
+                    <p class="search-button-container">
+                        <button class="btn search-button" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false"
+                            aria-controls="collapseExample">
+                            <img src="./feather/feather-gray.svg">
+                        </button>
+                    </p>
+                    <!-- ******* END SEARCH SECTION ********-->
                 </div>
+
             </div>
-            <p class="search-button-container">
-                <button class="btn search-button" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false"
-                    aria-controls="collapseExample">
-                <img src="./feather/search-white.svg">
-            </button>
-            </p>
-
-
-
-
-
         </div>
-    </div>
 
+
+
+
+
+
+
+        <div class="container-fluid profile-container">
+            <div class="row">
+                <!-- ******************* -->
+                <!-- Profiles section -->
+
+                <div class="profile-container-sm">
+                    <div class="profile-sm">
+                        <div class="col-3 no-padding">
+                            <div class="frame-round-md">
+                                <div class="crop">
+                                    <img src="profile.jpg" class="">
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="col-6">
+                            <p class="profile-name-sm no-margin">Debi Lawrense</p>
+                            <p class="profile-profession-sm no-margin">Lawyer</p>
+                            <p class="profile-prof-spec-sm no-margin">Commercial fines</p>
+                            <p class="profile-city-sm no-margin">Barcelona, Spain</p>
+                        </div>
+
+
+                        <div class="col-3 expirience-container-sm">
+                            <div class="expirience-sm">
+                                <img src="./feather/briefcase.svg">
+                                <p class="expirience-years no-margin">12+</p>
+                            </div>
+                            <div class="award-sm">
+                                <img src="./feather/award-app-color.svg">
+                            </div>
+                        </div>
+                    </div>
+
+                    <hr style="width:50%; margin:0 auto;">
+
+                    <div class="profile-looks-for-sm">
+                        <div class="col-3 ">
+                            <img class="float-right" src="./feather/eye-app-color.svg">
+                        </div>
+                        <div class="looksfor-item no-margin col-9">
+                            <p class="no-margin">House realtor</p>
+                        </div>
+                    </div>
+
+                </div>
+                <!-- .................................. -->
+
+
+
+                <div class="profile-container-sm">
+                    <div class="profile-sm">
+                        <div class="col-3 no-padding">
+                            <div class="frame-round-md">
+                                <div class="crop">
+                                    <img src="profile2.png" class="">
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="col-6">
+                            <p class="profile-name-sm no-margin">Ketty Voznyak</p>
+                            <p class="profile-profession-sm no-margin">Model</p>
+                            <p class="profile-prof-spec-sm no-margin">Travell, Action</p>
+                            <p class="profile-city-sm no-margin">Zurich, Switzerland</p>
+                        </div>
+
+
+                        <div class="col-3 expirience-container-sm">
+                            <div class="expirience-sm">
+                                <img src="./feather/briefcase.svg">
+                                <p class="expirience-years no-margin">4+</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <hr style="width:50%; margin:0 auto;">
+
+                    <div class="profile-looks-for-sm">
+                        <div class="col-3 ">
+                            <img class="float-right" src="./feather/eye-app-color.svg">
+                        </div>
+                        <div class="looksfor-item no-margin col-9">
+                            <p class="no-margin">Photographer</p>
+                        </div>
+                    </div>
+
+                </div>
+                <!-- ............................ -->
+
+
+
+                <!-- *****END PROFILE SECTION ****** -->
+            </div>
+        </div>
+
+
+
+    </div>
+    <!-- *****END WRAPPER ****** -->
 
 
     <!-- Optional JavaScript -->

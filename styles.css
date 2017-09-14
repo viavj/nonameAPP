@@ -10,6 +10,10 @@ main colo #11a2b2
     margin: 0 !important;
 }
 
+.font-light{
+    font-weight: 100;
+}
+
 body{
     background-color: #f6f6f6 !important;
 }
@@ -254,7 +258,15 @@ body{
 .section-connect{
     display: flex;
     justify-content: center;
-    margin-top: -20px;
+    margin-top: -25px;
+}
+
+.connect-btn:focus{
+    box-shadow: none !important;
+}
+
+.message-btn:focus{
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 15px 0px !important;    
 }
 
 .profile-connect-btn{
@@ -279,16 +291,24 @@ body{
 }
 .profile-expirience-sm{
     display: flex;
-    align-items: center;
 }
 
-.profile-expirience-sm img{
+.profile-exp-logo-title-sm{
+    align-items: end;
+    display: flex;
+}
+
+.profile-exp-logo-title-sm img{
     margin-right: 3px;
 }
 
 .profile-studies-sm{
     display: flex;
-    align-items: center;
+}
+
+.profile-studies-logo-title-sm{
+    align-items: end;
+    display: flex;
 }
 
 .profile-studies-sm img{
@@ -298,7 +318,11 @@ body{
 
 .profile-profession-sm{
     display: flex;
-    align-items: center;
+}
+
+.profile-prof-logo-title-sm{
+    align-items: end;
+    display: flex;
 }
 
 .profile-profession-sm img{
@@ -331,7 +355,30 @@ body{
 
 
 
+/* *************************** */
+/* Dashboard */
 
+.edit-btn{
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 15px 0px;
+    background: #11a2b2;
+    border-radius: 30px;
+    width: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    right: 10px;
+    position: absolute;
+    top: 80px;
+}
+
+
+
+
+
+
+
+/* END dashboard */
+/* ********************** */
 
 
 
